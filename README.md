@@ -132,6 +132,10 @@ bombs = [  # Daftar koordinat bom yang harus dihindari
 
 
 
+![OutputPlot](https://github.com/raffiadzril/Graph-Path-Robot-ANDAL/blob/main/outputplotRecord.gif  )
+
+
+
 
 
 
