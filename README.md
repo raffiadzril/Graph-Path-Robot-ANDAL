@@ -123,8 +123,11 @@ bombs = [  # Daftar koordinat bom yang harus dihindari
 ```
 ### Output
 1. Output Terminal
+
 ![OutputTerminal](https://github.com/raffiadzril/Graph-Path-Robot-ANDAL/blob/main/output.png)
+
 2. Output Plot
+
 ![OutputPlot](https://github.com/raffiadzril/Graph-Path-Robot-ANDAL/blob/main/robot_path_3d_plot.png)
 
 
