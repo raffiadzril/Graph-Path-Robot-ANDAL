@@ -128,7 +128,7 @@ bombs = [  # Daftar koordinat bom yang harus dihindari
 
 2. Output Plot
 
-![OutputPlot](https://github.com/raffiadzril/Graph-Path-Robot-ANDAL/blob/main/robot_path_3d_plot.png)
+![OutputPlot](https://github.com/raffiadzril/Graph-Path-Robot-ANDAL/blob/main/robot_path_3d_plotOutput.png)
 
 
 
