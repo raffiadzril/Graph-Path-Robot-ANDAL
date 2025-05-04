@@ -135,6 +135,29 @@ bombs = [  # Daftar koordinat bom yang harus dihindari
 ![OutputPlot](https://github.com/raffiadzril/Graph-Path-Robot-ANDAL/blob/main/outputplotRecord.gif  )
 
 
+---
+
+## Analisis Kompleksitas Waktu
+
+### Fungsi BFS:
+
+Dalam kasus terburuk, algoritma BFS akan menjelajahi setiap posisi dalam grid 3D. Grid ini berukuran 10x10x10, yang berarti ada **1000 posisi** yang harus dieksplorasi.
+
+BFS akan mengunjungi setiap posisi yang valid hanya sekali, dan setiap posisi akan diperiksa dalam 6 arah pergerakan.
+
+Oleh karena itu, kompleksitas waktu dari fungsi BFS adalah **O(n)**, di mana **n** adalah jumlah total posisi dalam grid. Dalam kasus ini, **n = 1000**.
+
+### Fungsi is_valid:
+
+Fungsi ini dipanggil untuk setiap posisi yang berdekatan selama proses BFS. Fungsi ini memeriksa apakah posisi tersebut berada dalam batas grid, belum dikunjungi, dan bukan bom. Karena operasi ini memeriksa kondisi tertentu secara langsung, kompleksitas waktu untuk setiap pemanggilan fungsi ini adalah **O(1)**.
+
+### Kompleksitas Keseluruhan:
+
+Kompleksitas keseluruhan didominasi oleh fungsi BFS, yang memeriksa semua posisi dalam grid. Oleh karena itu, kompleksitas waktu keseluruhan adalah **O(n)**, di mana **n** adalah jumlah total posisi yang harus dijelajahi dalam grid. Dalam kasus ini, **n = 1000**, sehingga kompleksitasnya **O(1000)**.
+
+---
+
+Dengan cara ini, **O(n)** merujuk pada jumlah posisi dalam grid, dan kita bisa memahami bahwa semakin besar **n**, semakin banyak posisi yang akan diperiksa oleh algoritma BFS.
 
 
 
